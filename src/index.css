@@ -1,0 +1,157 @@
+body {
+  background-color: #e6e6e6 ;
+}
+hr{
+  margin: 0;
+  color: rgb(128, 125, 125);
+}
+#header {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align:center;
+  font-size: 80px;
+  font-weight: 550;
+  color: rgb(128, 125, 125);
+}
+
+
+.filter{
+  display: flex;
+  max-width: 100%;
+  padding: 10px 15px;
+  color: rgb(128, 125, 125);
+}
+.filter h3{
+  color: #000;
+  font-size: 20px;
+  margin: auto;
+  margin-left: 0;
+}
+.filter h4{
+  cursor: pointer;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-right: 0;
+}
+.filter h4:hover{
+  color: #0779FA;
+}
+.filter button{
+  margin: 5px 25px;
+  background: transparent;
+  color: rgb(66, 65, 65);
+  font-size: 15px;
+  border: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.taskMa{
+  width: 100%;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px rgb(128, 125, 125);
+}
+
+
+
+form{
+  padding: 24px 24px;
+  box-sizing: border-box;
+  width:inherit;
+  background: white;
+  display: inline-flex;
+  margin: auto;
+  
+}
+form .icon{
+  color: #0779FA;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+form input{
+  font-size: 20px;
+  border: 0px;
+  width: 100%;
+  margin: auto;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  
+}
+
+form input::placeholder{
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form input:focus{
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+
+
+.taskItem{
+  font-weight: 800;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  height:70px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  padding: 10px 15px;
+  font-size: 20px;
+  align-items: center;
+}
+.taskItem input[type="checkbox"]{
+  margin: 5px;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+}
+.taskItem p{
+  margin: auto 10px;
+}
+.taskItem button{
+  display: none;
+  margin: auto;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 0px;
+  background-color: transparent;
+  color: rgb(192, 192, 192);
+}
+.taskItem:hover button{
+  display: block;
+  cursor: pointer;
+  
+}
+.taskItem:hover{
+  box-shadow: 0px 0px 7px rgb(128, 125, 125);
+}
+
+
+
+.all-done{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.all-done .smile{
+  color: #0779FA;
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+}
+.all-done h1{
+  padding: 0px;
+  margin: 10px;
+  font-size: 60px;
+  font-weight: 550;
+  color: rgb(128, 125, 125);
+}
