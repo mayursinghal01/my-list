@@ -3,8 +3,12 @@ import useFetch from "./Effects/useFetch"
 
 const InfinteUseIntersection = () => {
 
+    //If this is not working
     const postURL = `https://jsonplaceholder.typicode.com/photos`
 
+    // Use this..
+    // const postURL = `https://jsonplaceholder.typicode.com/posts`
+    
 
     const {posts,error,loading,loadmore,lastItemRef} = useFetch(postURL)
 
