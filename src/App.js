@@ -1,15 +1,18 @@
 import './App.css';
-import Filters from './Components/Filters';
+
 import Header from './Components/Header';
-import TaskManger from './Components/TaskManger';
+import InfiniteScrolling from './Components/InfiniteScrolling/InfiniteScrolling';
+// import TaskManger from './Components/TaskManger';
+// import Filters from './Components/Filters';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <hr />
-      <Filters/>
-      <TaskManger/>
+      <InfiniteScrolling/>
+      {/* <Filters/>
+      <TaskManger/> */}
     </div>
   );
 }

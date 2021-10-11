@@ -155,3 +155,20 @@ form input:focus{
   font-weight: 550;
   color: rgb(128, 125, 125);
 }
+
+.card{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin: 5px 0px;
+  
+}
+.card .description{
+  padding: 5px 10px;
+}
+.card .description p{
+  margin: 0px;
+}
+.card .description h4{
+  margin: 0px;
+}
