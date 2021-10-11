@@ -2,7 +2,7 @@
 const Posts = ({post}) => {
     return (
         <div className="card" >
-            <img src={post.url} height="100px" width="100px" />
+            <img src={post.url} height="100px" width="100px" alt="" />
             <div className="description"> 
                 <h4>{post.id}</h4>
                 <p> {post.title}</p>
