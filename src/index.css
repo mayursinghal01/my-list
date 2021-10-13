@@ -172,3 +172,26 @@ form input:focus{
 .card .description h4{
   margin: 0px;
 }
+
+.search{
+  box-sizing: border-box;
+  
+}
+.search input{
+  font-size: 20px;
+  border: 0px;
+  margin: 10px;
+  width: -webkit-fill-available;
+  height: 40px;;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 10px 20px 5px 20px;
+}
+.search .card{
+  margin: 10px;
+  background: white;
+}
+.search h1{
+  margin: 10px;
+}
