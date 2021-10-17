@@ -17,7 +17,7 @@
     "redux": "^4.1.1",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://mayursinghal01.github.io",
+  "homepage": "https://mayursinghal01.github.io/my-list",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
